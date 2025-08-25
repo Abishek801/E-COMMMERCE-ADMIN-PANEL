@@ -19,7 +19,8 @@ public class CorsConfig {
                                 "http://localhost:3000",
                                 "http://localhost:5173",
                                 "http://localhost:8081",
-                                "https://8081-becabbbccbbfdfebebacdbf.premiumproject.examly.io"
+                                "https://8081-becabbbccbbfdfebebacdbf.premiumproject.examly.io",
+                                "https://e-commmerce-admin-panel.vercel.app/"
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH")
                         .allowedHeaders("*")
