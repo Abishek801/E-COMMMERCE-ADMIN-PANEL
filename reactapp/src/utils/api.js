@@ -1,9 +1,10 @@
 import axios from "axios";
 
 // Auto-switch between localhost and Examly proxy
-const BASE_URL = window.location.hostname.includes("localhost")
-  ? "http://localhost:8080"
-  : "https://ide-becabbbccbbfdfebebacdbf.premiumproject.examly.io/proxy/8080/api";
+// const BASE_URL = window.location.hostname.includes("localhost")
+//   ? "http://localhost:8080"
+//   : "https://ide-becabbbccbbfdfebebacdbf.premiumproject.examly.io/proxy/8080/api";
+const BASE_URL = "https://e-commmerce-admin-panel.onrender.com";
 
 const API = axios.create({
   baseURL: BASE_URL,
